@@ -1,0 +1,285 @@
+.cart-page {
+    margin: 30px 0;
+}
+
+.cart-page-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*! Cart Form Start */
+
+/*?  Progress Start*/
+
+.cart-page .cart-form {
+    flex-basis: 60%;
+}
+
+.cart-page-wrapper .free-progress-bar {
+    border: 1px solid #d1d3db;
+    padding: 20px;
+    width: 100%;
+}
+
+.cart-page-wrapper .progress-bar-title {
+    font-size: 12px;
+}
+
+.cart-page-wrapper .progress-bar-title strong {
+    color: #ee3333;
+}
+
+.cart-page-wrapper .progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: #d1d3db;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.cart-page-wrapper .progress-bar span {
+    width: 40%;
+    height: 6px;
+    background-color: #ee3333;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+}
+
+/*?  Progress End*/
+
+/*? Table Start */
+
+.cart-form table img {
+    width: 70px;
+}
+
+.cart-form .shop-table-wrapper {
+    overflow-x: auto;
+}
+
+.cart-form table> :not(caption)>*>* {
+    padding: 12px 0;
+}
+
+.cart-form table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    min-width: 595px;
+}
+
+.cart-form table thead th {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart-form table .product-quantity,
+.cart-form table .product-subtotal {
+    text-align: center;
+}
+
+.cart-form table .product-quantity input {
+    width: 60px;
+}
+
+.cart-form table .product-subtotal strong {
+    color: #13c6fb;
+}
+
+.cart-form table tbody {
+    border-top: 1px solid #d1d3db;
+}
+
+.cart-form table tbody .cart-item {
+    border-bottom: 1px solid #d1d3db;
+}
+
+.cart-form table tbody .cart-image {
+    position: relative;
+
+}
+
+.cart-form table tbody .cart-image img {
+    border: 1px solid #d1d3db;
+    border-radius: 5px;
+
+}
+
+.cart-form table tbody i {
+    position: relative;
+    color: #000000;
+    width: 16px;
+    height: 16px;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cart-form table tbody .remove-text {
+    cursor: pointer;
+}
+
+
+/*? Table End */
+
+/*? Actions Start */
+
+
+.actions-wrapper .coupon {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.actions-wrapper .coupon button {
+    color: #000;
+    background-color: #fff;
+
+}
+
+.actions-wrapper .coupon button {
+    color: #000;
+    background-color: #fff;
+
+}
+
+
+.actions-wrapper .coupon button:hover {
+    color: #fff;
+    background-color: #13c6fb;
+}
+
+.actions-wrapper .coupon input {
+    height: 100%;
+}
+
+.actions-wrapper .coupon .input-text:focus {
+    border-right: 1px solid #dee0ea
+}
+
+/*? Actions End */
+
+/*?  Collaterals Start */
+
+.cart-collaterals {
+    flex: 0 0 300px;
+    border: 1px solid #d1d3db;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgb(0 0 0/ 25%);
+    height: 100%;
+    min-width: 315px;
+}
+
+.cart-collaterals table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-collaterals h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d1d3db;
+}
+
+.cart-collaterals table th,
+.cart-collaterals table td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart-collaterals table tr:nth-child(3) {
+    border-top: 1px solid #d1d3db;
+}
+
+.cart-collaterals table th {
+    text-align: start;
+    padding: 20px 0 10px 0;
+}
+
+.cart-collaterals table td {
+    text-align: end;
+    padding: 20px 0 10px 0;
+}
+
+.cart-collaterals table ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cart-collaterals table label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+}
+
+.cart-collaterals table a {
+    color: #ee3333;
+    font-weight: 500;
+}
+
+.cart-collaterals table strong {
+    font-size: 18px;
+    font-weight: 700;
+    color: #13c6fb;
+}
+
+.cart-collaterals .checkout button {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.wp-cart-empty {
+    text-align: center;
+}
+
+.wp-cart-empty i {
+    font-size: 24px;
+    color: #13c6fb;
+}
+
+
+
+/*?  Collaterals End */
+
+.recommended-products {
+    margin-top: 40px;
+}
+
+.recommended-products-title {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.wp-recommended-products-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wp-recommended-products-title-wrapper p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+
+/*! Cart Form End */
+
+/* Responsive */
+
+@media (max-width: 992px) {
+    .cart-page-wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}

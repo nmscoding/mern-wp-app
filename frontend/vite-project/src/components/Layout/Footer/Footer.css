@@ -1,0 +1,191 @@
+/*? Footer Top Css Start */
+
+.footer .footer-top {
+    background-color: #121212;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.footer .footer-row-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+}
+
+
+.footer .subscribe-title,
+.footer .contact-title {
+    font-size: 30px;
+    max-width: 500px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.footer .subscribe-desc,
+.footer .contact-desc {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.footer .footer-subscribe-bottom,
+.footer .footer-contact-bottom {
+    margin-top: 40px;
+    
+}
+
+
+.footer .footer-subscribe-bottom button {
+    height: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s ease all;
+}
+
+.footer .footer-subscribe-bottom button:hover {
+    height: 50px;
+    border: 1px solid #13c6fb;
+    color: #13c6fb;
+}
+
+.footer .privacy-text,
+.footer .privacy-text a {
+    font-size: 10px;
+    color: #868686;
+}
+
+.footer .footer-contact-bottom .download-app {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .footer .footer-row-wrapper {
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+}
+
+/*? Footer Top Css Start */
+
+/*? Footer Center Css Start */
+
+.footer-center {
+    padding: 60px 0;
+    border-bottom: 1px solid #dee0ea;
+}
+
+.footer-center .footer-widgets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-center .footer-widgets>div {
+    flex: 1;
+}
+
+.footer-center .footer-widgets>.brand-info {
+    flex: 3;
+}
+
+.footer-widgets .footer-desc {
+    width: 400px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.footer-widgets .footer-contact {
+    font-size: 14px;
+}
+
+.footer-widgets .widget-nav-menu h4 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer-widgets .widget-nav-menu ul {
+    margin-top: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.footer-widgets .widget-nav-menu a {
+    transition: all ease 0.2s;
+}
+
+.footer-widgets .widget-nav-menu a:hover {
+    color: #b3abab;
+}
+
+
+@media (max-width: 768px) {
+    .brand-info {
+        margin-bottom: 20px;
+    }
+
+    .footer-center .footer-widgets>div {
+        flex: unset !important;
+    }
+
+    .footer-widgets .footer-desc {
+        width: unset;
+
+    }
+
+}
+
+/*? Footer Center Css End */
+
+
+/*? Footer Bottom Css Start */
+
+.footer-copyright {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer-bottom .site-copyright {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.footer-bottom .footer-menu {
+    margin-left: auto;
+}
+
+.footer-menu .footer-menu-list {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 12px;
+}
+
+.footer-menu .footer-menu-list .list-item:not(:last-child) {
+    border-right: 1px solid #dee0ea;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-copyright {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    .footer-menu {
+        margin-left: unset !important;
+    }
+}
+
+/*? Footer Bottom Css End */

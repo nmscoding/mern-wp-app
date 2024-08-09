@@ -1,0 +1,76 @@
+.react-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+.react-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 500px;
+    z-index: 1001;
+}
+
+.share-modal-title {
+    border-bottom: 1px solid #dee0ea;
+    padding: 5px 0;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.share-buttons button {
+    cursor: pointer;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.copy-link {
+    display: flex;
+}
+
+.copy-link input {
+    width: 80%;
+}
+
+.share-modal-btn {
+    background-color: #13c6fb;
+    padding: 0 5px;
+    width: 20%;
+    color: #fff;
+    transition: 0.2s ease all;
+}
+
+.share-modal-btn:hover {
+    opacity: 0.6;
+}
+
+.share-modal-close-button {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+}
+
+.share-modal-close-button i{
+    font-size: 25px;
+}
+
+

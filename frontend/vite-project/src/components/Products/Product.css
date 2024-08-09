@@ -1,0 +1,39 @@
+.products {
+    margin-bottom: 20px;
+    
+}
+
+.products .product-list {
+    display: flex;
+    gap: 20px;
+}
+
+.products .section-title h2 {
+    margin-top: 0;
+}
+
+.products .section-title a {
+    text-align: center;
+    margin-top: 10px;
+    color: #13c6fb;
+}
+
+.products .product-list {
+    padding-bottom: 15px;
+}
+
+.products .product-item {
+    text-align: center;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #d1d3db;
+    transition: 0.7s ease all;
+    
+}
+
+.products .product-item:hover {
+    box-shadow: 0px 6px 12px rgb(0 0 0/ 25%);
+}

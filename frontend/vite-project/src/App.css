@@ -1,0 +1,25 @@
+.section-title {
+  text-align: center;
+  margin: 50px 50px;
+  font-family: "Rubik", sans-serif;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin-top: 15px;
+}
+
+.section-title p {
+  margin-top: 10px;
+}
+
+.section-title .all-category {
+  color: #13c6fb;
+}
+
+.blog-page {
+  margin-top: 40px;
+}

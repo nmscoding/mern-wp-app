@@ -1,0 +1,281 @@
+.account-page {
+    margin: 60px 0;
+}
+
+.account-page .account-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.account-column {
+    flex: 1;
+}
+
+.account-column h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.account-column form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 10px;
+}
+
+.account-column form div label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    row-gap: 5px;
+}
+
+.account-column form .remember {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+}
+
+.account-column form .remember button {
+    margin-top: 10px;
+}
+
+.account-column form .required {
+    color: #ee3333;
+}
+
+.account-column .remember label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.account-column form .form-link {
+    color: #ee3333;
+    font-size: 14px;
+}
+
+.account-column form label .account-policy {
+    border-bottom: 0.5px solid #777676;
+}
+
+.account-column .toggle-password {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    position: relative;
+    bottom: 37px;
+    left: 93%;
+    font-size: 20px;
+}
+
+.account-column .toggle-password-2 {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    position: relative;
+    bottom: 37px;
+    left: 93%;
+    font-size: 20px;
+}
+
+.social-login-icon:nth-child(1) {
+    background-color: rgb(76, 110, 168);
+}
+
+.social-login-icon:nth-child(2) {
+    background-color: rgb(241, 66, 54);
+}
+
+#login-register * {
+    box-sizing: border-box !important;
+}
+
+.social-account-login-buttons {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.social-account-login-buttons .social-login-button:first-child {
+    margin-right: 15px;
+}
+
+.social-account-login-buttons .social-login-button {
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    border: solid 1px #dee0ea;
+    padding: 8px 10px;
+    align-items: flex-start;
+    align-self: flex-start;
+    line-height: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-account-login-buttons .social-login-button .social-login-icon {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.social-login-icon .bi {
+    display: inline-block;
+    line-height: 1;
+}
+
+.social-account-login-buttons .social-login-button small {
+    font-size: 12px;
+    color: #999999;
+}
+
+.change-password .change-password-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.change-password .change-password-email-form {
+    width: 415px;
+    border-radius: 3px;
+    border: solid 1px #e6e6e6;
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.wp-flex-column {
+    flex-direction: column;
+}
+
+.wp-font-sm {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.wp-display-flex {
+    display: flex;
+}
+
+.wp-color-black {
+    color: #333;
+}
+
+.change-password .change-password-email-form .wp-input-w .wp-text {
+    font-size: 14px;
+}
+
+.wp-input-w .wp-text {
+    height: calc(1em + 4px* 1 + 0px);
+}
+
+.wp-font-w-bold {
+    font-weight: 700;
+}
+
+.wp-font-sm {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.wp-color-black {
+    color: #333;
+}
+
+.wp-mgb-1 {
+    margin-bottom: 4px;
+}
+
+.change-password .change-password-email-form .wp-input-w .wp-input {
+    height: 44px;
+}
+
+.wp-input-w .wp-input {
+    font: inherit;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 8px;
+    transition: all .3s ease;
+    outline: 0;
+}
+
+.wp-bg-beige {
+    background-color: #fbfbfb;
+}
+
+.wp-display-flex {
+    display: flex;
+}
+
+.wp-mgt-1 {
+    margin-top: 4px;
+}
+
+.change-password-container form button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.wp-back-btn {
+    background-color: #fff;
+    color: #000;
+}
+
+.wp-back-btn:hover {
+    color: #13c6fb;
+    border: 1px solid #13c6fb;
+}
+
+.wp-password-btn {
+    background-color: #13c6fb;
+}
+
+.wp-password-btn:hover {
+    opacity: 0.7;
+}
+
+.wp-success-message {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wp-success-message span{
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.wp-success-message i{
+    color: rgb(37, 216, 37);
+    font-size: 40px;
+    margin-top: 25px;
+ }
+
+
+/*! responsive */
+
+@media (max-width: 768px) {
+    .account-wrapper {
+        flex-direction: column;
+    }
+}

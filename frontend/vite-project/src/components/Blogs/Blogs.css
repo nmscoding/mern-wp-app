@@ -1,0 +1,9 @@
+.blogs {
+    margin-bottom: 20px;
+}
+
+.blogs .blog-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

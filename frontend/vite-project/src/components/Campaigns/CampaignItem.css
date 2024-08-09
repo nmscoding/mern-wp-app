@@ -1,0 +1,31 @@
+.campaigns .campaign-item {
+    padding: 70px 35px;
+    flex: 1;
+    color: #000000;    
+    border-radius: 15px;
+    border: 1px solid #d1d3db;
+    background-size: cover;
+    background-position: center;
+}
+
+.campaign-item .campaign-title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 60%;
+}
+
+.campaign-item .campaign-desc {
+    margin: 40px 0;
+    font-size: 14px;
+}
+
+
+
+.campaign-wrapper:nth-child(2) .campaign-item:nth-child(1) {
+    flex: 5;
+}
+
+.campaign-wrapper:nth-child(2) .campaign-item:nth-child(2) {
+    flex: 3;
+}

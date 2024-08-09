@@ -1,0 +1,47 @@
+.mega-campaign {
+    background-image: url(../../images/mega-campaign.png);
+    background-attachment: fixed;
+    padding: 140px 15px;
+    margin-bottom: 40px;
+    background-position: center;
+}
+
+.mega-campaign .mega-campaign-wrapper {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mega-campaign .mega-campaign-wrapper h2 {
+    font-size: 25px;
+    color: #121212;
+}
+
+.mega-campaign .mega-campaign-wrapper strong {
+    font-size: 60px;
+    margin: 20px 0;
+    color: #121212;
+}
+
+.mega-campaign .mega-campaign-wrapper span {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.mega-campaign .mega-campaign-wrapper a {
+    
+    margin-top: 60px;
+    transition: ease all 0.5s;
+}
+
+
+
+@media (max-width: 768px) {
+    .mega-campaign {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}

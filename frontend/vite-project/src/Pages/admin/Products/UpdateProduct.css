@@ -1,0 +1,29 @@
+.existing-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.existing-image-item {
+    position: relative;
+    width: 150px; /* Resmin genişliğini ayarlayın */
+    height: 150px; /* Resmin yüksekliğini ayarlayın */
+}
+
+.existing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px; /* İsteğe bağlı olarak köşeleri yuvarlatabilirsiniz */
+}
+
+.existing-image-item button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}

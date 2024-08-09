@@ -1,0 +1,10 @@
+.sales-photo {
+    margin-top: 40px;
+}
+
+.sales-photo img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+

@@ -1,0 +1,139 @@
+
+.addresses-page-content-box {
+    height: 260px;
+    min-width: 270px;
+    max-width: 270px;
+    border: solid 1px #e2e2e2;
+    border-radius: 4px;
+    position: relative;
+    margin-right: 15px;
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+.wp-flex-column {
+    flex-direction: column;
+}
+
+.wp-display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wp-bg-white {
+    background-color: #fff;
+}
+
+.addresses-page-content-box .addresses-page-content-box-header {
+    background-color: rgba(19, 198, 251, 0.4);
+    border-bottom: solid 1px #e2e2e2;
+    height: 42px;
+    padding: 0 15px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.addresses-page-content-box .wp-number {
+    position: absolute;
+    justify-content: end;
+    right: 10px;
+}
+
+.wp-display-flex {
+    display: flex;
+}
+
+.addresses-page-content-box .address-page-content-box-body {
+    margin: 5px 15px;
+}
+
+.wp-flex-column {
+    flex-direction: column;
+}
+
+.wp-display-flex {
+    display: flex;
+}
+
+.addresses-page-content-box .address-page-content-box-actions {
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+}
+
+.wp-flex-row {
+    flex-direction: row;
+}
+
+.wp-display-flex {
+    display: flex;
+}
+
+.wp-font-sm {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px 0;
+}
+
+.wp-color-black {
+    color: #333;
+}
+
+.wp-button:not(:disabled).wp-secondary {
+    background: 0 0;
+    border-color: #13c6fb;
+    color: #13c6fb;
+}
+
+.wp-button {
+    width: 100%;
+    cursor: pointer;
+    padding: 6px 10px;
+    font: inherit;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.wp-font-w-semi-bold {
+    font-weight: 600;
+}
+
+.wp-bordered {
+    border: solid 1px #e6e6e6;
+    border-radius: 3px;
+}
+
+.wp-transition {
+    transition: all .2s ease;
+}
+
+.addresses-page-content-box .address-page-content-box-actions .address-page-content-box-actions-delete {
+    cursor: pointer;
+}
+
+.addresses-page-content-box .address-page-content-box-actions .address-page-content-box-actions-delete i {
+    margin-right: 6px;
+}
+
+.add-address-content-box {
+    height: 260px;
+    min-width: 270px;
+    max-width: 270px;
+    border: solid 1px #e2e2e2;
+    border-radius: 4px;
+    background-color: #d1d3db;
+}
+
+.add-address-content-box button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.add-address-content-box button i{
+    font-size: 50px;
+}

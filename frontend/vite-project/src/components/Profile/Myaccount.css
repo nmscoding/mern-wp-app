@@ -1,0 +1,447 @@
+.profile {
+    margin-top: 50px;
+}
+
+.profile .profile-wrapper {
+    display: flex;
+    gap: 40px;
+
+}
+
+.profile-menu .account-info-wrapper {
+    margin-bottom: 15px;
+}
+
+.profile-wrapper .profile-menu ul {
+    display: block;
+    gap: 10px;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+}
+
+.profile-wrapper .profile-menu .title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid #dee0ea;
+    border-left: 1px solid #dee0ea;
+    border-right: 1px solid #dee0ea;
+}
+
+.profile-wrapper .profile-menu .account-info,
+.profile-wrapper .profile-menu .order-info {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #dee0ea;
+}
+
+.profile-wrapper .profile-menu .account-info li,
+.profile-wrapper .profile-menu .order-info li {
+
+    display: flex;
+    padding: 5px;
+    column-gap: 10px;
+    font-size: 14px;
+    transition: all ease 0.2s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.profile-wrapper .profile-menu .account-info li:hover,
+.profile-wrapper .profile-menu .order-info li:hover {
+    background-color: rgba(19, 198, 251, 0.4);
+    border: 1px solid rgba(19, 198, 251, 0.4);
+    border-radius: 5px;
+}
+
+.profile-info {
+    display: block;
+}
+
+.profile-info .user-form {
+    display: flex;
+    border-radius: 6px;
+    border: solid 1px #dee0ea;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    gap: 40px;
+}
+
+.profile-info h2 {
+    border-radius: 6px;
+    border: solid 1px #dee0ea;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-family: source_sans_proregular, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.profile-info form {
+    margin-top: 30px;
+}
+
+.form-section form label input,
+.form-section form label select,
+.form-section form label textarea {
+    margin: 15px 0;
+    width: 100%;
+}
+
+.profile-wrapper .profile-info form label select {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.profile-wrapper .profile-info form label input,
+.profile-wrapper .profile-info form label textarea {
+    width: 100%;
+}
+
+.user-form .form-section h1 {
+    font-family: source_sans_proregular, sans-serif;
+    font-size: 18px;
+    color: #13c6fb;
+}
+
+.user-form .form-section {
+    width: 100%;
+    padding: 20px;
+}
+
+.user-form .form-section .name-surname-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc-btn {
+    width: 100%;
+}
+
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-item {
+    border: 1px solid #dee0ea;
+    border-radius: 5px;
+}
+
+.order-product {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.order-product:not(:last-child) {
+    border-bottom: 1px solid #dee0ea;
+}
+
+.order-product-image {
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #dee0ea;
+}
+
+.order-product-image img {
+    border-radius: 5px;
+}
+
+.order-product-details {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    row-gap: 5px;
+}
+
+.order-product-details .my-product-evaluation-button {
+    width: 125px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    background-color: rgba(19, 198, 251, 0.3);
+    color: #15aedd;
+    letter-spacing: -.4px;
+    border-radius: 8px;
+    max-height: 28px;
+}
+
+.my-order-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    row-gap: 5px;
+}
+
+.my-order-status-wrapper {
+    display: flex;
+    gap: 10px;
+
+}
+
+.my-order-info-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee0ea;
+}
+
+.my-order-status-icon {
+    display: flex;
+    background-color: #5ad363;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.my-order-empty-warring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-order-go-to-shop {
+    margin-top: 15px;
+    background-color: #13c6fb;
+    padding: 12px 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #d1d3db;
+}
+
+.my-order-status-wrapper.siparis-alindi .my-order-status-icon {
+    background-color: #5ad363;
+}
+
+.my-order-status-wrapper.siparis-hazirlaniyor .my-order-status-icon {
+    background-color: #F9E400;
+}
+
+.my-order-status-wrapper.siparis-hazirlaniyor .my-order-status-icon i {
+    animation: orderHourglass 6s infinite;
+}
+
+@keyframes orderHourglass {
+    0% {
+      transform: rotate(0deg);
+    }
+    16.67% {
+      transform: rotate(360deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    66.67% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+.my-order-status-wrapper.kargoda .my-order-status-icon {
+    background-color: #FFAF00;
+}
+
+.my-order-status-wrapper.kargoda .my-order-status-icon i {
+    animation: orderCargo 2s linear infinite;
+}
+
+@keyframes orderCargo {
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+      }
+      25% {
+        opacity: 1;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(30px);
+        opacity: 0;
+      }
+}
+
+.my-order-status-wrapper.teslim-edildi .my-order-status-icon {
+    background-color: #5ad363;
+}
+
+.my-order-status-wrapper.iptal-edildi .my-order-status-icon {
+    background-color: #F5004F;
+}
+
+
+.my-order-status-icon i {
+    font-size: 26px;
+    color: #fff;
+    padding: 8px;
+    flex: 1;
+}
+
+.my-order-id {
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+    font-size: 14px;
+    color: #9c9c9e;
+}
+
+.my-order-buttons-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.my-order-buttons-wrapper i {
+    font-size: 20px;
+    color: #a8a4a4;
+}
+
+.my-order-buttons-wrapper .my-order-button-link>div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.my-order-buttons-wrapper span {
+    font-size: 14px;
+    color: #a8a4a4;
+}
+
+.order-item .my-order-total {
+    width: 100%;
+    text-align: end;
+    font-weight: bold;
+    color: #13c6fb;
+    padding: 10px;
+}
+
+.order-item .my-order-total-price {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.my-order-subtotal-title {
+    color: #a8a4a4;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+
+.my-order-subtotal {
+    color: #5ad363;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.my-product-desc {
+    font-size: 14px;
+}
+
+.my-order-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #13c6fb;
+    margin-top: 10px;
+}
+
+.my-order-status {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.my-order-date {
+    font-size: 14px;
+    color: #439e4a;
+    font-weight: 500;
+}
+
+.stars {
+    display: flex;
+}
+
+.star.active i {
+    color: gold;
+}
+
+.stars a:first-child {
+    padding-left: 0;
+}
+
+.stars a:last-child {
+    border-right: none;
+}
+
+
+.stars a {
+    display: flex;
+    padding: 4px 10px;
+    border-right: 1px solid #dee0ea;
+    margin-top: 5px;
+}
+
+.stars a:hover i {
+    color: gold;
+}
+
+
+.stars i {
+    font-size: 10px;
+    color: #dee0ea;
+    transition: 0.2s ease color;
+}
+
+
+@media (max-width: 1200px) {
+    .user-form .form-section .name-surname-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .user-form .form-section .name-surname-wrapper label {
+        width: 100%;
+    }
+}
+
+@media (max-width: 998px) {
+    .order-product {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-wrapper .profile-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .profile .profile-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .profile-info .user-form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

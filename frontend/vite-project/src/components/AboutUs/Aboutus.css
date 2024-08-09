@@ -1,0 +1,51 @@
+.aboutus .aboutus-wrapper {
+    row-gap: 20px;
+}
+
+.aboutus .aboutus-left {
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.aboutus .aboutus-right {
+    display: flex;
+    margin-top: 60px;
+    gap: 15px;
+}
+
+.aboutus .aboutus-left img {
+    width: 50%;
+}
+
+.aboutus .aboutus-right img {
+    width: 50%;
+}
+
+.aboutus .aboutus-left p {
+    padding: 20px;
+    border-bottom: 1px solid #bec0c0;
+}
+
+.aboutus .aboutus-right p {
+    padding: 20px;
+    border-bottom: 1px solid #bec0c0;
+}
+
+@media (max-width: 992px) {
+    .aboutus .aboutus-right {
+        flex-wrap: wrap;
+    }
+
+    .aboutus .aboutus-left {
+        flex-wrap: wrap;
+    }
+
+    .aboutus .aboutus-left img {
+        width: 100%;
+    }
+    
+    .aboutus .aboutus-right img {
+        width: 100%;
+    }
+}

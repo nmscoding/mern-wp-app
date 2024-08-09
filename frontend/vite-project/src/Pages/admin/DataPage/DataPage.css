@@ -1,0 +1,22 @@
+.scorecards {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+}
+
+.scorecard {
+    border: 1px solid #d1d3db;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.scorecard strong {
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+}
+
+.scorecard p {
+    font-size: 14px;
+    color: #868383;
+}

@@ -1,0 +1,17 @@
+.campaigns {
+    margin-bottom: 50px;
+}
+
+.campaigns .campaign-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .campaigns .campaign-item {
+        width: 100%;
+        flex: unset !important;
+    }
+}
